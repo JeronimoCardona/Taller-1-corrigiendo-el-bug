@@ -1,2 +1,18 @@
-package PACKAGE_NAME;public class Gradebook {
+public class Gradebook
+
+
+    public String displayMesage(){
+        return "Bienvenido al curso de : " + getCourseName();
+    }
+    private String courseName;
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+}
+
 }
